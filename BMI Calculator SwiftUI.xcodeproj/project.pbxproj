@@ -11,6 +11,8 @@
 		7D38CE332817E850000B8320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38CE322817E850000B8320 /* ContentView.swift */; };
 		7D38CE352817E852000B8320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38CE342817E852000B8320 /* Assets.xcassets */; };
 		7D38CE382817E852000B8320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38CE372817E852000B8320 /* Preview Assets.xcassets */; };
+		7D41CE5D28185B21002B402A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41CE5C28185B21002B402A /* DoubleExtension.swift */; };
+		7DC22CF728E68D9E0059C451 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC22CF628E68D9E0059C451 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7D38CE322817E850000B8320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D38CE342817E852000B8320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D38CE372817E852000B8320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D41CE5C28185B21002B402A /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		7DC22CF628E68D9E0059C451 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				7D38CE302817E850000B8320 /* BMI_Calculator_SwiftUIApp.swift */,
+				7DC22CF628E68D9E0059C451 /* ContentViewModel.swift */,
 				7D38CE322817E850000B8320 /* ContentView.swift */,
 				7D38CE342817E852000B8320 /* Assets.xcassets */,
 				7D38CE362817E852000B8320 /* Preview Content */,
+				7D41CE5C28185B21002B402A /* DoubleExtension.swift */,
 			);
 			path = "BMI Calculator SwiftUI";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D41CE5D28185B21002B402A /* DoubleExtension.swift in Sources */,
 				7D38CE332817E850000B8320 /* ContentView.swift in Sources */,
 				7D38CE312817E850000B8320 /* BMI_Calculator_SwiftUIApp.swift in Sources */,
+				7DC22CF728E68D9E0059C451 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
